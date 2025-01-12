@@ -2,8 +2,11 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, link: "" },
-  { icon: <FaLinkedinIn />, link: "" },
+  { icon: <FaGithub />, link: "https://github.com/ThamirysSantos" },
+  {
+    icon: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/in/thamirysgoncalves",
+  },
 ];
 
 export interface SocialMediaProps {
