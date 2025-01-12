@@ -1,10 +1,7 @@
-import { Button } from "./ui/button";
-import { FiDownload } from "react-icons/fi";
-
 export default function Biography() {
   return (
-    <div className="text-center xl:text-left">
-      <span className="text-xl">Full-Stack Software Developer</span>
+    <div>
+      <span>Full-Stack Software Developer</span>
       <h1 className="h1 mb-6">
         Hello I`m <br /> <span className="text-accent">Thamirys Gonçalves</span>
       </h1>
@@ -14,16 +11,6 @@ export default function Biography() {
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
       </p>
-      <div className="flex flex-col xl:flex-row items-center gap-8">
-        <Button
-          variant="outline"
-          size="lg"
-          className="uppercase flex items-center gap-2"
-        >
-          <span>Download CV</span>
-          <FiDownload className="text-xl" />
-        </Button>
-      </div>
     </div>
   );
 }
