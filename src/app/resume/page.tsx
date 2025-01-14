@@ -4,6 +4,7 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Skills from "@/components/Skills";
+import About from "@/components/About";
 
 export default function ResumePage() {
   return (
@@ -31,6 +32,7 @@ export default function ResumePage() {
             <Experience />
             <Education />
             <Skills />
+            <About />
           </div>
         </Tabs>
       </div>
