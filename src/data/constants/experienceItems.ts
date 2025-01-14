@@ -1,4 +1,4 @@
-import ExperienceItem from "../model/ExperienceItems";
+import ExperienceItem from "../model/ExperienceItem";
 
 const experienceItems: ExperienceItem[] = [
   {
