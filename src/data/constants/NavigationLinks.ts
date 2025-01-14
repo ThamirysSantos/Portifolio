@@ -6,10 +6,6 @@ const navigationLinks: NavigationLink[] = [
     path: "/",
   },
   {
-    name: "services",
-    path: "/services",
-  },
-  {
     name: "resume",
     path: "/resume",
   },

@@ -1,4 +1,4 @@
-import navigationLinks from "@/data/constants/NavigationLinks";
+import navigationLinks from "@/data/constants/navigationLinks";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
