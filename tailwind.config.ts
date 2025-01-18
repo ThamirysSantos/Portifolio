@@ -8,6 +8,7 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    focus: "#00ff99",
     extend: {
       colors: {
         primary: "#1c1c22",
