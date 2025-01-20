@@ -1,6 +1,21 @@
-import navigationLinks from "../data/constants/navigationLinks";
+// import navigationLinks from "../data/constants/navigationLinks";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
+const navigationLinks = [
+  {
+    name: "home",
+    path: "/",
+  },
+  {
+    name: "resume",
+    path: "/resume",
+  },
+  {
+    name: "contact",
+    path: "/contact",
+  },
+];
 
 export interface NavLinksProps {
   navClassName: string;
