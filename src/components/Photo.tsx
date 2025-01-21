@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import profilePic from "../../public/avatar.png";
 
 export default function Photo() {
   return (
@@ -25,7 +26,7 @@ export default function Photo() {
           "
         >
           <Image
-            src="/assets/avatar_2.png"
+            src={profilePic}
             priority
             quality={100}
             fill
