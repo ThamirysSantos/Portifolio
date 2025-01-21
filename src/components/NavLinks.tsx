@@ -11,10 +11,10 @@ const navigationLinks = [
     name: "resume",
     path: "/resume",
   },
-  {
-    name: "contact",
-    path: "/contact",
-  },
+  // {
+  //   name: "contact",
+  //   path: "/contact",
+  // },
 ];
 
 export interface NavLinksProps {

@@ -1,6 +1,6 @@
-import Link from "next/link";
+// import Link from "next/link";
 import DesktopNav from "./DesktopNav";
-import { Button } from "./ui/button";
+// import { Button } from "./ui/button";
 import MobileNav from "./MobileNav";
 import Logo from "./Logo";
 
@@ -11,9 +11,9 @@ export default function Header() {
         <Logo />
         <div className="hidden xl:flex items-center gap-8">
           <DesktopNav />
-          <Link href="/contact">
+          {/* <Link href="/contact">
             <Button>Hire me</Button>
-          </Link>
+          </Link> */}
         </div>
         <div className="xl:hidden">
           <MobileNav />
